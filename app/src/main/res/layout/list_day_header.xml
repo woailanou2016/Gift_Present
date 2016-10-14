@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="#fffff0"
+    android:paddingBottom="4dp"
+    >
+    <ImageView
+        android:id="@+id/day_header_image"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        />
+
+</LinearLayout>

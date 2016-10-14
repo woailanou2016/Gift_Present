@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dllo.gift_present_0919">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".volley.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ad.AdActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".main.MainActivity" />
+        <activity android:name=".home.Title_Home_Login_Activity" />
+        <activity android:name=".mine.Mine_Set_Up_Activity" />
+        <activity android:name=".list.List_Share_Activity" />
+        <activity android:name=".home.choose.ChooseActivity" />
+        <activity android:name=".list.List_Jump_Activity" />
+        <activity android:name=".mine.IdentityActivity" />
+        <activity android:name=".mine.IdentityNextActivity" />
+        <activity android:name=".mine.InviteActivity" />
+        <activity android:name=".mine.ScoreActivity" />
+        <activity android:name=".mine.IdealActivity" />
+        <activity android:name=".mine.RelativeGiftActivity" />
+        <activity android:name=".home.search.SearchActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#ce64000a"
+    android:orientation="horizontal">
+
+   <TextView
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:layout_weight="1"
+       android:textColor="#ffffff"
+       android:layout_marginLeft="150dp"
+       android:text="礼物榜"/>
+    <ImageView
+        android:id="@+id/list_title_image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginLeft="100dp"
+        android:src="@mipmap/ic_action_compact_share"
+        />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="切换频道"/>
+        <ImageView
+            android:id="@+id/imgbtn_popb"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/arrow_down_nightmode"/>
+        
+    </RelativeLayout>
+    <GridView
+        android:id="@+id/gridView_pop"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:stretchMode="columnWidth"
+        android:numColumns="4"
+        android:background="#e8e1e1">
+
+    </GridView>
+
+</LinearLayout>

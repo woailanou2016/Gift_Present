@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="210dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/stra_recyler_img"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+
+
+    <TextView
+        android:id="@+id/stra_text1"
+        android:layout_toRightOf="@+id/stra_recyler_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="靠脸吃饭" />
+
+    <TextView
+        android:id="@+id/stra_text2"
+        android:layout_toRightOf="@+id/stra_recyler_img"
+        android:layout_below="@+id/stra_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="更新至73期" />
+
+    <TextView
+        android:id="@+id/stra_text3"
+        android:layout_below="@+id/stra_text2"
+        android:layout_toRightOf="@+id/stra_recyler_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="灰姑娘" />
+
+
+</RelativeLayout>
+

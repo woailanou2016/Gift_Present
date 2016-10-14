@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include  layout="@layout/title_activity_idea"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:paddingTop="30dp"
+           android:text="反馈内容"/>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="120dp"
+           android:background="#ffffff"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="70dp"
+           android:paddingTop="50dp"
+           android:text="联系方式"/>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:paddingTop="30dp"
+           android:background="#ffffff"
+           android:text="电话/QQ/邮箱"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingTop="10dp"
+           android:text="加入礼物说Q群415897693,回复更及时哦~"/>
+
+   </LinearLayout>
+
+
+</LinearLayout>
